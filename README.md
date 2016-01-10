@@ -18,25 +18,25 @@ Basically, for now, you can start your node server and load a list of movies fro
 
 #### Reseponse
 ```
-> {
->   "list": [
->     {
->       "title": "Straight Outta Compton",
->       "year": "2015",
->       "otherDetails": "",
->       "url": "http://www.imdb.com/title/tt1398426/?ref_=fn_tt_tt_1",
->       "posterUrl": "http://ia.media-imdb.com/images/M/MV5BMTA5MzkyMzIxNjJeQTJeQWpwZ15BbWU4MDU0MDk0OTUx._V1_UX32_CR0,0,32,44> _AL_.jpg"
->     },
->     ...
->     {
->       "title": "Straight Outta ComptonMiss Holland",
->       "year": "2012",
->       "otherDetails": "Straight Outta Compton  TV Episode - Miss Holland 2012 TV Series",
->       "url": "http://www.imdb.com/title/tt2610902/?ref_=fn_tt_tt_3",
->       "posterUrl": "http://ia.media-imdb.com/images/M/MV5BMTM5MTMzMjM0NF5BMl5BanBnXkFtZTcwNDU1NjI4OA@@._V1_UX32_CR0,0,32,44> _AL_.jpg"
->     }
->   ]
-> }
+{
+  "list": [
+    {
+      "title": "Straight Outta Compton",
+      "year": "2015",
+      "otherDetails": "",
+      "url": "http://www.imdb.com/title/tt1398426/?ref_=fn_tt_tt_1",
+      "posterUrl": "http://ia.media-imdb.com/images/M/MV5BMTA5MzkyMzIxNjJeQTJeQWpwZ15BbWU4MDU0MDk0OTUx._V1_UX32_CR0,0,32,44> _AL_.jpg"
+    },
+    ...
+    {
+      "title": "Straight Outta ComptonMiss Holland",
+      "year": "2012",
+      "otherDetails": "Straight Outta Compton  TV Episode - Miss Holland 2012 TV Series",
+      "url": "http://www.imdb.com/title/tt2610902/?ref_=fn_tt_tt_3",
+      "posterUrl": "http://ia.media-imdb.com/images/M/MV5BMTM5MTMzMjM0NF5BMl5BanBnXkFtZTcwNDU1NjI4OA@@._V1_UX32_CR0,0,32,44> _AL_.jpg"
+    }
+  ]
+}
 ```
 
 
