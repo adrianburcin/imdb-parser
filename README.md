@@ -8,8 +8,8 @@ Basically, for now, you can start your node server and load a list of movies fro
 * Download a copy of the project
 * Be sure you have [NodeJS](https://nodejs.org/) installed on your computer
 * Navigate to the root of the project (imdb-parser)
-* Run the following commands in terminal: npm install
-* After everything was installed run: npm start (or node example/server.js)
+* Run the following commands in terminal: **npm install**
+* After everything was installed run: **npm start** (or _node example/server.js_)
 * Open a browser and type in: localhost:8000/find?title=**MOVIE_NAME**
 
 ## Example:
@@ -27,7 +27,7 @@ Basically, for now, you can start your node server and load a list of movies fro
 >       "url": "http://www.imdb.com/title/tt1398426/?ref_=fn_tt_tt_1",
 >       "posterUrl": "http://ia.media-imdb.com/images/M/MV5BMTA5MzkyMzIxNjJeQTJeQWpwZ15BbWU4MDU0MDk0OTUx._V1_UX32_CR0,0,32,44> _AL_.jpg"
 >     },
-> ......
+>     ...
 >     {
 >       "title": "Straight Outta ComptonMiss Holland",
 >       "year": "2012",
