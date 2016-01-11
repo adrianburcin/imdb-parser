@@ -10,11 +10,11 @@ Basically, for now, you can start your node server and load a list of movies fro
 * Navigate to the root of the project (imdb-parser)
 * Run the following commands in terminal: **npm install**
 * After everything was installed run: **npm start** (or _node example/server.js_)
-* Open a browser and type in: http://localhost:8000/api/find?query=<MOVIE_NAME/ACTOR_NAME/EPISODE_NAME>&search=<all/titles/names/episodes>&count=<5 - number>
+* Open a browser and type in: http://localhost:8000/api/find?query=**MOVIE_NAME/ACTOR_NAME/EPISODE_NAME**&search=**all/titles/names/episodes**&count=**5 - number**
 
 ## Example:
 #### Request
-> [GET] http://localhost:8000/api/find?query=<MOVIE_NAME/ACTOR_NAME/EPISODE_NAME>&search=<all/titles/names/episodes>&count=<5 - number>  -> returns a list of relevant movies/actors/episodes which contains that specified query words
+> [GET] http://localhost:8000/api/find?query=**MOVIE_NAME/ACTOR_NAME/EPISODE_NAME**&search=**all/titles/names/episodes**&count=**5 - number**  -> returns a list of relevant movies/actors/episodes which contains that specified query words
 
 #### Reseponse
 ```
