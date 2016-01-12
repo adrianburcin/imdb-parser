@@ -20,7 +20,8 @@ router.route('/find').get(function (req, res) {
   var reqParams = {
     query: req.param('query'),
     search: req.param('search'),
-    count: req.param('count')
+    count: req.param('count'),
+    page: req.param('page')
   };
 
   console.log(JSON.stringify(reqParams));
