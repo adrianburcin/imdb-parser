@@ -36,6 +36,24 @@ router.route('/find').get(function (req, res) {
 
 });
 
+//@RequestParams -> id
+router.route('/movie').get(function (req, res) {
+  var reqParams = {
+    id: req.param('id')
+  };
+
+  console.log(JSON.stringify(reqParams));
+
+  imdbParser.getMovie(reqParams)
+    .then((result) => {
+      res.json(result);
+    })
+    .catch((result) => {
+      res.json(result);
+    });
+
+});
+
 app.use('/api', router); //This is our route middleware
 
 app.set('port', process.env.PORT || 8000);
